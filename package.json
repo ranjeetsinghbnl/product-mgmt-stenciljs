@@ -16,6 +16,19 @@
     "email": "ranjeet.mtharu@gmail.com",
     "homepage": "https://github.com/ranjeetsinghbnl"
   },
+  "keywords": [
+    "webcomponents",
+    "web-components",
+    "typescript",
+    "scss",
+    "stencil-demo",
+    "stenciljs",
+    "stencil",
+    "tslint-stencil",
+    "state-management",
+    "dom-events",
+    "microfrontend"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
