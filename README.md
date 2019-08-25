@@ -2,6 +2,7 @@
 
 # product-mgmt-stenciljs
 [![CircleCI](https://circleci.com/gh/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master.svg?style=svg)](https://circleci.com/gh/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master)
+
 A showcase of product list and cart components in StencilJs. For more guides on component [check](https://stenciljs.com/docs/component)
 
 This project will give you an ideas of stencil components. I have created a two components ProductView and ProductCart to be demonstrate a Micro Front End example [repo](https://github.com/ranjeetsinghbnl/productft-stencil) and how you can create a technology agnostic application. You can find more about stenciljs [here](https://stenciljs.com/docs/overview).
