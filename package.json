@@ -1,0 +1,48 @@
+{
+  "name": "@ranjeetsinghbnl/product-mgmt-stenciljs",
+  "version": "0.0.1",
+  "description": "A showcase of product list and cart components in StencilJs.",
+  "homepage": "https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ranjeet Singh",
+    "email": "ranjeet.mtharu@gmail.com",
+    "homepage": "https://github.com/ranjeetsinghbnl"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/product-mgmt/product-mgmt.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "doc": "stencil build --docs-readme",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.0.7",
+    "@stencil/sass": "^1.0.1"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.17",
+    "tslint": "^5.19.0",
+    "tslint-stencil": "^1.0.1"
+  }
+}

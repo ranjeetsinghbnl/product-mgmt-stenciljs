@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <title>Stencil Micro Front End Example</title>
+
+    <script type="module" src="/build/product-mgmt.esm.js"></script>
+    <script nomodule src="/build/product-mgmt.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <style>
+      body {
+        background-color: #f7f7f7;
+        margin-top: 3em;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-7">
+          <mf-product-view></mf-product-view>
+        </div>
+        <div class="col-sm-5">
+          <mf-product-cart></mf-product-cart>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
