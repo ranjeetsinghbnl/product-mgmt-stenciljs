@@ -1,5 +1,5 @@
 {
-  "name": "@ranjeetsinghbnl/product-mgmt-stenciljs",
+  "name": "product-mgmt-stenciljs",
   "version": "0.0.1",
   "description": "A showcase of product list and cart components in StencilJs.",
   "homepage": "https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs",
@@ -29,7 +29,7 @@
     "dom-events",
     "microfrontend"
   ],
-  "main": "dist/index.js",
+  "main": "dist/product-mgmt.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
   "es2017": "dist/esm/index.mjs",
@@ -47,7 +47,8 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "doc": "stencil build --docs-readme",
-    "lint": "tslint -p tsconfig.json -c tslint.json"
+    "lint": "tslint -p tsconfig.json -c tslint.json",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@stencil/core": "^1.0.7",
