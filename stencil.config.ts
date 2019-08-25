@@ -22,7 +22,7 @@ export const config: Config = {
     reloadStrategy: 'pageReload'
   },
   bundles: [
-    { components: ['st-product-view', 'st-product-cart'] }
+    { components: ['mf-product-view', 'mf-product-cart'] }
   ],
   buildEs5: true,
   minifyJs: true,
