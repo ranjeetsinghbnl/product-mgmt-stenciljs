@@ -42,11 +42,10 @@
     "loader/"
   ],
   "scripts": {
-    "build": "stencil build --docs",
+    "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "doc": "stencil build --docs-readme",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "prepublish": "npm run build"
   },
