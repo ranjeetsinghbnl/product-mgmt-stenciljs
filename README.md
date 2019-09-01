@@ -5,7 +5,7 @@
 
 A showcase of product list and cart components in StencilJs. For more guides on stenciljs components, please [check](https://stenciljs.com/docs/component) their documentation.
 
-This project will give you an ideas of stencil components. I have created a two components ProductView(https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-view) and [ProductCart](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-cart) to be demonstrate a Micro Front End example [repo](https://github.com/ranjeetsinghbnl/productft-stencil) and how you can create a technology agnostic application. You can find more about stenciljs [here](https://stenciljs.com/docs/overview).
+This project will give you an ideas of stencil components. I have created a two components [ProductView](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-view) and [ProductCart](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-cart) to be demonstrate a Micro Front End example [repo](https://github.com/ranjeetsinghbnl/productft-stencil) and how you can create a technology agnostic application. You can find more about stenciljs [here](https://stenciljs.com/docs/overview).
 
 This example is inspired [from](https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb). A blog demonstrating how we can use angular-elements to create a micro-front application.
 
