@@ -5,10 +5,22 @@
 
 A showcase of product list and cart components in StencilJs. For more guides on stenciljs components, please [check](https://stenciljs.com/docs/component) their documentation.
 
-This project will give you an ideas of stencil components. I have created a two components [ProductView](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-view) and [ProductCart](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-cart) to be demonstrate a Micro Front End example [repo](https://github.com/ranjeetsinghbnl/productft-stencil) and how you can create a technology agnostic application. You can find more about stenciljs [here](https://stenciljs.com/docs/overview).
+This project will give you an ideas of stencil components. I have created a two components 
+* [ProductView](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-view) 
+* [ProductCart](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-cart)
+
+# Guides to franework integration
+I have created framework integration guide to use stencil components
+
+* [Stencil components in VueJs](https://github.com/ranjeetsinghbnl/stenciljs-vue)
+* [Stencil components in React](https://github.com/ranjeetsinghbnl/stenciljs-react)
+* [Stencil components in Angular](https://github.com/ranjeetsinghbnl/stenciljs-angular)
+* [Stencil components in javascript](https://github.com/ranjeetsinghbnl/stenciljs-javascript)
+
+You can use stenciljs to create a technology agnostic application or in a micro front application. You can find more about stenciljs [here](https://stenciljs.com/docs/overview).
 
 This example is inspired [from](https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb). A blog demonstrating how we can use angular-elements to create a micro-front application.
 
-But i want to give this a try in [Stencil](https://stenciljs.com). It is Web Components ready and comes with great [features](https://stenciljs.com/docs/goals-and-objectives). Also the build size is too small for production usage. You can check the build size of Angular-elements and StencilJs components.
+But i want to give this a try in [Stencil](https://stenciljs.com) as it is Web Components ready and comes with great [features](https://stenciljs.com/docs/goals-and-objectives). Also the build size is too small for production usage. You can check the build size of Angular-elements and StencilJs components.
 
 For linting i'm using [tslint-stencil](https://www.npmjs.com/package/tslint-stencil) package. It will follow the [guidelines](https://stenciljs.com/docs/style-guide) define by the stencil team.
