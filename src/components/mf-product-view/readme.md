@@ -31,8 +31,6 @@ ProductView
 
 ----------------------------------------------
 
-*Built with [StencilJS](https://stenciljs.com/)*
-
 
 
 ## Listeners
@@ -43,7 +41,7 @@ ProductView
 
 
 ### Product Interface
-```
+```js
 interface Product {
     id: number,
     productName: string;
