@@ -9,7 +9,7 @@ This project will give you an ideas of stencil components. I have created a two 
 * [ProductView](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-view) 
 * [ProductCart](https://github.com/ranjeetsinghbnl/product-mgmt-stenciljs/tree/master/src/components/mf-product-cart)
 
-# Guides to franework integration
+# Guides to framework integration
 I have created framework integration guide to use stencil components
 
 * [Stencil components in VueJs](https://github.com/ranjeetsinghbnl/stenciljs-vue)
